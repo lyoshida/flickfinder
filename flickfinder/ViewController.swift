@@ -20,6 +20,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet weak var photoImageView: UIImageView!
+    @IBOutlet weak var phraseTextField: UITextField!
+    @IBOutlet weak var latitudeTextField: UITextField!
+    @IBOutlet weak var longitudeTextField: UITextField!
+    @IBOutlet weak var photoTitleLabel: UILabel!
 
+    @IBAction func searchPhotosByPhraseButtonTouchUp(sender: UIButton) {
+    }
+    
+    @IBAction func searchPhotosByLatLonButtonTouchUp(sender: UIButton) {
+    }
+    
 }
 
